@@ -1,16 +1,10 @@
 package pokemon;
 
-import org.junit.jupiter.api.BeforeEach;
-
 import io.restassured.RestAssured;
 import org.junit.jupiter.api.BeforeAll;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
-import io.restassured.response.Response;
-import io.restassured.specification.RequestSpecification;
 
-
-
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import static io.restassured.RestAssured.get;
 
 public class TestPokemonApi {
